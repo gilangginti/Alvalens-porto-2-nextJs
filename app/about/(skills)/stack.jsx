@@ -5,23 +5,29 @@ export default function Stack() {
 				Language & Framework
 			</h2>
 			<p className="text-gray-500 text-center tracking-widest md:px-5">
-				<span className="text-black font-bold">HTML</span> |{" "}
-				<span className="text-black font-bold">CSS</span> |{" "}
-				<span className="text-black font-bold">Javascript</span> |{" "}
-				<span className="text-black font-bold">Typescript</span> |{" "}
-				<span className="text-black font-bold">React</span> |{" "}
-				<span className="text-black font-bold">NextJS</span> |{" "}
-				<span className="text-black font-bold">TailwindCSS</span> |{" "}
-				<span className="text-black font-bold">Bootstrap</span> |{" "}
+				<span className="text-black font-medium">HTML</span> |{" "}
+				<span className="text-black font-medium">CSS</span> |{" "}
+				<span className="text-black font-medium">Javascript</span> |{" "}
+				<span className="text-black font-medium">Typescript</span> |{" "}
+				<span className="text-black font-medium">React</span> |{" "}
+				<span className="text-black font-medium">NextJS</span> |{" "}
+				<span className="text-black font-medium">TailwindCSS</span> |{" "}
+				<span className="text-black font-medium">Bootstrap</span> |{" "}
 				<span className="text-black font-medium">NodeJS</span> |{" "}
 				<span className="text-black font-medium">ExpressJS</span> |{" "}
-				<span className="text-black font-bold">MySQL</span> |{" "}
-				<span className="text-black font-bold">PostgreSQL</span> |{" "}
+				<span className="text-black font-medium">MySQL</span> |{" "}
+				<span className="text-black font-medium">PostgreSQL</span> |{" "}
 				<span className="text-black font-medium">MongoDB</span> |{" "}
 				<span className="text-black font-medium">Firebase</span> |{" "}
-				<span className="text-black font-medium">PHP</span> |{" "}
-				<span className="text-black font-bold">Laravel</span> |{" "}
-				<span className="text-black font-medium">Python</span>
+				<span className="text-black font-medium">Bun</span> |{" "}
+				<span className="text-black font-medium">Hono</span> |{" "}
+				<span className="text-black font-medium">Golang</span>|{" "}
+				<span className="text-black font-medium">Fiber</span>|{" "}
+				<span className="text-black font-medium">Gin</span>|{" "}
+				<span className="text-black font-medium">Gorm</span>|{" "}
+				<span className="text-black font-medium">Nginx</span>|{" "}
+				<span className="text-black font-medium">Docker</span>|{" "}
+				<span className="text-black font-medium">and many more +</span> 
 			</p>
 		</>
   );

@@ -8,38 +8,38 @@ import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-	title: "Alvalens | Portofolio",
+	title: "Gin.Tech | Portofolio",
 	description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
-	author: "Alvalen Shafelbilyunazra",
-	siteUrl: "https://www.alvalens.my.id",
+		"Hello, my name is Muhammad Gilang Fauzi. I am a software engineer with 4 years of experience in the field of software development. I specialize in both backend and frontend development, enabling me to create efficient and high-quality applications from the server to the user interface. I am committed to delivering innovative technology solutions that meet the needs of clients and organizations.",
+	author: "Gilang Fauzi",
+	siteUrl: "https://www.gin-tech.site",
 	applicationName: "Alvalens",
 	keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
+		"Gilang",
+		"Gin.Tech",
+		"Muhammad Gilang Fauzi",
+		"Fauzi",
+		"Gin",
+		"Gin Technology",
+		"Gin Portofolio",
+		"Gilang Portofolio",
+		"Gin Porto",
 	],
 	openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://www.gin-tech.site",
+		title: "Gilang | Portofolio",
+		site_name: "Gilang | Portofolio",
+		description: "My name is Gilang, This is my portofolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				alt: "Gilang Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Gilang | Portofolio",
 	},
 };
 
@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
 				<TopProgressBar />
 				<Navbar />
 				{children}
-				<Chat />
+				{/* <Chat /> */}
 				<Analytics />
 			</body>
 		</html>

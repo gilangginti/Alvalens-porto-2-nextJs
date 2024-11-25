@@ -23,7 +23,7 @@ export default function projectCard({project, index, activeCategory}){
 						{/* Add relative here */}
 						<Image
 							src={project.bg.src}
-							alt="Alvalens"
+							alt="Gilang"
 							layout="fill"
 							objectFit="cover"
 							placeholder="blur"

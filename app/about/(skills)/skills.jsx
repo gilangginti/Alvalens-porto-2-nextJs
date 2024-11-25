@@ -19,13 +19,17 @@ export default function Skills() {
 					<WebhookIcon className="w-12 h-12" />
 					<div className="font-medium">REST API</div>
 				</div>
-				<div className="flex flex-col items-center gap-2">
+				{/* <div className="flex flex-col items-center gap-2">
 					<ActivityIcon className="w-12 h-12" />
 					<div className="font-medium">Machine Learning</div>
-				</div>
+				</div> */}
 				<div className="flex flex-col items-center gap-2">
 					<MobileIcon className="w-12 h-12" />
 					<div className="font-medium">Mobile Development</div>
+				</div>
+				<div className="flex flex-col items-center gap-2">
+					<CloudIcon className="w-12 h-12" />
+					<div className="font-medium">Cloud Computing</div>
 				</div>
 				{/* <div className="flex flex-col items-center gap-2">
 					<CloudIcon className="w-12 h-12" />
