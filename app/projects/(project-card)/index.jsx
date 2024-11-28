@@ -5,7 +5,7 @@ export default function projectCard({project, index, activeCategory}){
   return (
 		<>
 			{activeCategory == project.category && (
-				<Link href={"projects/" + project.slug} key={index}>
+				// <Link href={"projects/" + project.slug} key={index}>
 					<motion.div
 						className="z-10 relative flex justify-center items-start flex-col mb-5 md:px-10 w-full h-auto bg-gray-400 group/tes py-20 px-5 md:py-2 aspect-video "
 						initial={{
@@ -25,7 +25,7 @@ export default function projectCard({project, index, activeCategory}){
 							src={project.bg.src}
 							alt="Gilang"
 							layout="fill"
-							objectFit="cover"
+							// objectFit="cover"
 							placeholder="blur"
 							className="bg-slate-950 opacity-10  group-hover/tes:opacity-100 transition-all ease duration-500"
 							blurDataURL={project.bg.blurDataURL}
@@ -49,7 +49,7 @@ export default function projectCard({project, index, activeCategory}){
 							</div>
 						</div>
 					</motion.div>
-				</Link>
+				// </Link>
 			)}
 		</>
   );

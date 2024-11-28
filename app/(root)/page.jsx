@@ -129,14 +129,14 @@ const MyPage = () => {
                     type: "spring",
                   }}
                 >
-                  <div className="rounded-lg h-auto w-auto  lg:px-12 grayscale hover:grayscale-0 transition-all ease duration-300">
+                  <div className=" h-auto w-auto  lg:px-12 grayscale hover:grayscale-0 transition-all ease duration-300">
                     <Image
                       src={Me}
                       width={400}
                       height={550}
                       placeholder="blur"
                       alt="Gilang"
-                      className="rounded-lg w-full h-full object-cover"
+                      className=" w-full h-full object-cover"
                     />
                   </div>
                 </motion.div>
@@ -166,8 +166,8 @@ const MyPage = () => {
                   >
                     <Image
                       src={MeAbout}
-                      layout="fill"
-                      className="object-cover"
+                      // layout="fill"
+                      className=" w-full h-full object-cover"
                       alt="Gilang"
                       placeholder="blur"
                     />
@@ -217,7 +217,7 @@ const MyPage = () => {
               <div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
                 <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
                   <motion.div
-                    className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
+                    className="bg-white rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
                     initial={{
                       x: 300,
                       opacity: 0,
@@ -238,7 +238,7 @@ const MyPage = () => {
                     <Image
                       src={ProjectAll}
                       layout="fill"
-                      className="object-cover"
+                      className=" w-full h-full object-contain"
                       alt="Gilang Setup"
                       placeholder="blur"
                     />
@@ -311,8 +311,8 @@ const MyPage = () => {
                   >
                     <Image
                       src={Setup}
-                      layout="fill"
-                      className="object-cover"
+                      // layout="fill"
+                      className=" w-full h-full object-cover"
                       alt="Gilang Setup"
                       placeholder="blur"
                     />

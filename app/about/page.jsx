@@ -16,9 +16,10 @@ import Experience from "./(experience)/experience.jsx";
 import Education from "./(education)/education.jsx";
 
 // images
-import Me1 from "@/public/img/me2.jpg";
-import Me2 from "@/public/img/me.jpg";
-import Me3 from "@/public/img/me.jpg";
+import Me1 from "@/public/img/me.jpg";
+import Me2 from "@/public/img/me2.jpg";
+import Me3 from "@/public/img/about.jpg";
+import Me4  from "@/public/img/me4.jpg";
 import Hr from "@/components/Hr";
 
 export default function Page() {
@@ -122,7 +123,7 @@ export default function Page() {
                   className="w-full h-full"
                 >
                   <Image
-                    src={Me2}
+                    src={Me4}
                     alt="Gilang"
                     layout="fill"
                     objectFit="cover"
@@ -187,7 +188,7 @@ export default function Page() {
               MySQL, and MongoDB. I hold a   <span className="text-black font-medium">Bachelor’s degree</span> in Computer Science
               and am always focused on creating efficient and innovative tech
               solutions.
-			  Outside of technology, I enjoy <span className="text-black font-medium">sports</span>, particularly
+			        Outside of technology, I enjoy <span className="text-black font-medium">sports</span>, particularly
               badminton and running, which help me maintain a healthy work-life
               balance.
             </p>
@@ -334,7 +335,7 @@ export default function Page() {
         </div>
 
         {/* Education */}
-        {/* <div className="w-screen mx-auto container gap-10 p-10 grid grid-cols-1  my-10 ">
+        <div className="w-screen mx-auto container gap-10 p-10 grid grid-cols-1  my-10 ">
           <motion.div
             className="flex justify-center items-start flex-col mb-5 "
             initial={{
@@ -353,7 +354,7 @@ export default function Page() {
           >
             <Education />
           </motion.div>
-        </div> */}
+        </div>
 
         <div className="min-h-[80vh] w-screen mx-auto container  p-10 grid grid-cols-1 mt-10 ">
           <motion.div

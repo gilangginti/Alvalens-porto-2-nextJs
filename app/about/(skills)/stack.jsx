@@ -18,7 +18,6 @@ export default function Stack() {
 				<span className="text-black font-medium">MySQL</span> |{" "}
 				<span className="text-black font-medium">PostgreSQL</span> |{" "}
 				<span className="text-black font-medium">MongoDB</span> |{" "}
-				<span className="text-black font-medium">Firebase</span> |{" "}
 				<span className="text-black font-medium">Bun</span> |{" "}
 				<span className="text-black font-medium">Hono</span> |{" "}
 				<span className="text-black font-medium">Golang</span>|{" "}
@@ -26,7 +25,6 @@ export default function Stack() {
 				<span className="text-black font-medium">Gin</span>|{" "}
 				<span className="text-black font-medium">Gorm</span>|{" "}
 				<span className="text-black font-medium">Nginx</span>|{" "}
-				<span className="text-black font-medium">Docker</span>|{" "}
 				<span className="text-black font-medium">and many more +</span> 
 			</p>
 		</>

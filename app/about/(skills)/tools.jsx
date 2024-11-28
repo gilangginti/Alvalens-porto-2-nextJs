@@ -10,6 +10,9 @@ export default function Tools() {
 				<span className="text-black font-medium">Github</span> |{" "}
 				<span className="text-black font-medium">Figma</span> |{" "}
 				<span className="text-black font-medium">DBeaver</span> |{" "}
+				<span className="text-black font-medium">Ubuntu</span> |{" "}
+				<span className="text-black font-medium">Docker</span> |{" "}
+				<span className="text-black font-medium">VPS</span> |{" "}
 				<span className="text-black font-medium">and many more +</span> 
 			</p>
 		</>

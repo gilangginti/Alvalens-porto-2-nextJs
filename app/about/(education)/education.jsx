@@ -2,7 +2,8 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
 
-import Me4 from "@/public/img/me4.jpeg";
+// import Me4 from "@/public/img/me4.jpeg";
+import me5 from "@/public/img/me5.jpg";
 
 export default function Education() {
 	return (
@@ -19,135 +20,56 @@ export default function Education() {
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 					<div className="px-5">
 						<div className="font-medium text-lg">
-							2022 - Present
+							2018 - 2022
 						</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Universitas Negeri Malang
+								University Adhirajasa Reswara Sanjaya Bandung
 							</h2>
 							<h3 className="text-md font-normal mb-3">
-								S1 Teknik Informatika | Computer Science
+							Bachelor of Information Engineering
+							| Computer Science
 							</h3>
 							<div className="grid gap-4 mb-4 grayscale hover:grayscale-0 transition-all ease duration-300">
 								<Image
-									src={Me4}
+									src={me5}
 									width={400}
-									height={225}
+									height={"100%"}
 									alt="University"
 									className="rounded-lg"
 									style={{
-										aspectRatio: "16/9",
+										aspectRatio: "3/2",
 										objectFit: "cover",
 										width: "100%",
+										objectPosition: "top"
 									}}
 								/>
 							</div>
-							<div className="flex items-center gap-2">
-								<p className="text-justify">
-									Aspiring to be a software engineer, I am
-									currently pursuing a bachelor&rsquo;s degree
-									in computer science at Universitas Negeri
-									Malang. Fascinated by the world of
-									technology, I am eager to learn and explore
-									new things in the field of computer science.
-								</p>
-							</div>
+							
 							{/* add gpa in a style */}
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-									GPA: 3.9 out of 4
+									GPA: 3.54 out of 4
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="flex flex-col justify-start ">
             <h2 className="font-semibold text-xl mt-7">
-              Achievements
+              Story
             </h2>
             <p className="text-md font-normal mb-3 md:mb-12">
-              Some of my achievements during my study.
+              My story in education
             </p>
-						<div className="flex items-center gap-4 mb-4">
-							<div className="aspect-square w-10 rounded-full bg-black flex items-center justify-center text-primary-foreground">
-								<FontAwesomeIcon
-									icon={faMedal}
-									className="text-white h-5 w-5"
-								/>
-							</div>
-							<div>
-								<h3 className="font-medium">
-									Special Award | Gold Medal | Incubation Opportunity
-								</h3>
-								<p className="text-sm">
-									Indonesia Inventor Day 2024 (IID) | Aug
-									2024
+						
+			<div>
+								<p className="text-justify mb-2">
+								My educational journey began in vocational high school, where I majored in Computer and Network Engineering. During this time, I developed a strong interest in technology, particularly the Ubuntu operating system, networking, and programming fundamentals like C++, HTML, CSS, and JavaScript. After graduating, I worked as a smartphone salesperson, but I realized that this profession did not align with my aspirations. Determined to pursue my dreams, I enrolled in the Informatics Engineering program at Universitas Adhirajasa Reswara Sanjaya. While studying, I worked at a minimarket in Bandung for three years to fund my education.
+								</p>
+								<p className="text-justify">
+								In 2020-2021, the COVID-19 pandemic brought unexpected challenges, including job loss due to layoffs. Facing a tough job market, I focused on honing my programming skills and joined the Kampus Merdeka internship program at Hacktiv8 as a Frontend Developer. This marked the beginning of my career as a programmer. In January 2022, I successfully graduated and earned my bachelor&rsquo;s degree in Informatics Engineering, embarking on a new chapter as a professional programmer.
 								</p>
 							</div>
-						</div>
-						<div className="flex items-center gap-4 mb-4">
-							<div className="aspect-square w-10 rounded-full bg-black flex items-center justify-center text-primary-foreground">
-								<FontAwesomeIcon
-									icon={faMedal}
-									className="text-white h-5 w-5"
-								/>
-							</div>
-							<div>
-								<h3 className="font-medium">
-									3rd place (Bronze Medal)
-								</h3>
-								<p className="text-sm">
-									Student Digital Innovation Competition (LIDM) | Jun
-									2024
-								</p>
-							</div>
-						</div>
-						<div className="flex items-center gap-4 mb-4">
-							<div className="aspect-square w-10 rounded-full bg-black flex items-center justify-center text-primary-foreground">
-								<FontAwesomeIcon
-									icon={faMedal}
-									className="text-white h-5 w-5"
-								/>
-							</div>
-							<div>
-								<h3 className="font-medium">
-									3rd place (Bronze Medal)
-								</h3>
-								<p className="text-sm">
-									Fesmaro UI/UX Design | Jun
-									2024
-								</p>
-							</div>
-						</div>
-						<div className="flex items-center gap-4 mb-5">
-							<div className="aspect-square w-10 rounded-full bg-black flex items-center justify-center text-primary-foreground">
-								<FontAwesomeIcon
-									icon={faMedal}
-									className="text-white h-5 w-5"
-								/>
-							</div>
-							<div>
-								<h3 className="font-medium">Finalist</h3>
-								<p className="text-sm">
-									36th National Student Science Week (PIMNAS) | Nov 2023
-								</p>
-							</div>
-						</div>
-						<div className="flex items-center gap-4 mb-5">
-							<div className="aspect-square w-10 rounded-full bg-black flex items-center justify-center text-primary-foreground">
-								<FontAwesomeIcon
-									icon={faMedal}
-									className="text-white h-5 w-5"
-								/>
-							</div>
-							<div>
-								<h3 className="font-medium">
-									3rd place (Bronze Medal)
-								</h3>
-								<p className="text-sm">
-									FORKAFEST 3.0 Web Development competition | Jan 2023
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
